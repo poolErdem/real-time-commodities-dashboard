@@ -6,7 +6,7 @@ import time
 
 # Emtia fiyatları simülasyonu
 def generate_commodity_data():
-    commodities = ['Altın', 'Gümüş', 'Petrol', 'Bakır', 'Doğal Gaz']
+    commodities =  ['Gold', 'Silver', 'Oil', 'Copper', 'Natural Gas']
     prices = [random.uniform(1000, 2000), random.uniform(10, 50), random.uniform(60, 100), random.uniform(4, 10), random.uniform(2, 6)]
     commodity_data = {commodities[i]: prices[i] for i in range(len(commodities))}
     return commodity_data
@@ -18,6 +18,7 @@ async def handle_connection(websocket, path):
         while True:
             # Emtia fiyatlarını oluştur
             data = generate_commodity_data()
+
 
             # Fiyat verisini JSON formatında gönder
             response = {"data": data}

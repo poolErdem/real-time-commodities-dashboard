@@ -42,9 +42,9 @@ function App() {
 
   return (
     <div style={{ padding: '2rem' }}>
-      <h1>🛢️ Gerçek Zamanlı Emtia Fiyatları</h1>
+      <h1>🛢️ Real-Time Commodity Prices</h1>
       {loading ? (
-        <p>Veri yükleniyor...</p>
+        <p>Loading Data...</p>
       ) : (
         <div>
           <Plot
