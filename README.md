@@ -2,6 +2,7 @@
 
 A real-time commodity price dashboard built with WebSockets and Plotly.js. It streams simulated prices (e.g. Gold, Oil, Silver) every 5 seconds and visualizes them in an interactive chart.
 
+
 ## 🚀 Features
 
    📡 Real-Time Backend in Python using WebSocket for live commodity updates
@@ -13,6 +14,7 @@ A real-time commodity price dashboard built with WebSockets and Plotly.js. It st
    🔧 Easily extensible: Add new commodities or plug into live data APIs 
    
    🧰 Node.js-based Development Environment for frontend tooling (Vite, npm, etc.)
+   
 
 ## 🛠️ Getting Started
 
